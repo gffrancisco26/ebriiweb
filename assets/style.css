@@ -1,0 +1,472 @@
+*{
+ 
+  margin: 0;
+padding: 0;
+box-sizing: border-box;
+overflow-x: none;
+}
+
+body{
+  background-color: #fff;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+.navbar
+{
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  z-index: 4;
+  width: 100%;
+  
+}
+.navbar a{
+  color: #fff;
+  margin-left: 4px;
+}
+
+
+video.bg-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -2;
+  }
+
+  .masthead {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    text-align: center;
+  }
+  .masthead:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transform-origin: top right;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.649);
+  }
+
+  .navbarColor {
+    background-color: #2F4858; 
+    position: fixed;
+
+  
+   
+  }
+  .navbarColor a{
+    color: #fff;
+  }
+
+
+.btn-warning
+{
+  background-color: #F66F08 !important;
+  border: none !important;
+  color: #fff !important;
+}
+.btn-warning:hover{
+  background-color: #ff7e1b !important;
+  color: #fff !important;
+  border: none !important;
+}
+.padded
+{
+  background-color: #1f726e77;
+  padding: 20px;
+  border-radius: 10px;
+ width: 100%;
+}
+.paddeds
+{
+  background-color: #1f726e77;
+  padding: 20px;
+  border-radius: 10px;
+ width: 100%;
+ top: -150px;
+}
+
+
+
+
+.heroText
+{
+  font-family: 'Satisfy', cursive;
+}
+.heroContent{
+  font-family: 'Poppins', sans-serif;
+}
+.ebriKontent{
+  text-align: center;
+  margin-top: 60px;
+  height: 100%;
+  display: inline-block;
+}
+.ebriKontent h2
+{
+  color: #F66F08;
+}
+.ebriKontent h5{
+  color: #2F4858;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand
+{
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;margin-left: 5px;
+}
+.card
+{
+  display:inline-flex;
+  margin-top: 20px;
+  padding: 30px;
+
+  text-align: center;
+  border: none;
+
+}
+.card p{
+  margin-top: 20px;
+}
+.description
+{
+  display: inline-flex;
+  width: 100%;
+}
+.bgWhite
+{
+  background-color: #fff;;
+}
+.newPages
+{
+  display: inline-block;
+  bottom: 0;
+}
+.bg-white
+{
+  display: inline-block;
+}
+
+.imgSizing
+{
+  width: 20px;
+  margin-right: 10px;
+}
+.newRow ul li
+{
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.second ul li 
+{
+  list-style-type: none;
+
+}
+.newRow{
+  height: 40%;
+ 
+}
+.imgSizing span{
+  font-size: 13px;
+
+}
+.imgSizer
+{
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+.imgSizer img
+{
+  width: 106%;
+}
+.indented ul li
+{
+
+  padding-left: 100px;
+}
+.indented{
+  padding-top: 50px;
+}
+
+
+.close {
+  color: #aaa;
+  float: right;
+  right: 3px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 10px;
+  position: absolute;
+
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+::placeholder{
+  font-size: 16px;
+}
+
+.alert{
+  width: 100%;
+  background: rgb(0, 159, 67);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  display: none;
+  color: #fff;
+
+}
+.modal
+{
+  width: 470px;
+  margin: 0 auto;
+  top: 150px;
+  position: absolute;
+  left: 40%;
+  border-radius: 15px;
+ 
+
+
+ 
+}
+
+.form-group
+{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 10px;
+
+}
+
+.header
+{
+  background-color: #2F4858;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+}
+.container-title
+{
+  text-align: center;
+}
+textarea{
+  resize: none;
+}
+.fullBtn
+{
+  width: 100%;
+
+}
+.contactForm
+{
+  height: 700px;
+}
+
+.footer
+{
+  background-color: #272727;
+  width: 200px;
+  height: 10rem;
+
+  
+ 
+}
+.wrapper
+{
+  background-color: #ff7e1b;
+  width: 100%;
+}
+.loginHeading
+{
+  width: 100%;
+  color: #fff;
+  background-color: #212121c6;
+  margin: 0;
+  height: 50px;
+  line-height: 50px;
+}
+
+.btn-group
+{
+  width: 100%;
+}
+
+
+.loadingScreen
+{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: rgb(32, 32, 32);
+    position: absolute;
+
+
+}
+.ldImage {
+    padding-top: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.loadText
+{
+    display:flex;margin: 0 auto;
+      justify-content: center;
+       color: #fff;
+       font-size: 20px;
+}
+.dropdown-menu a
+{
+    color: #fff;
+}
+.dropdown-menu a:hover
+{
+    color: #fff !important;
+    background-color: #F66F08 !important;
+}
+#drpdwn
+{
+display:block;
+
+}
+#drpdwn:hover
+{
+display:block;
+text-decoration: none;
+}
+.nav-item a:active
+{
+  color: rgb(246, 111, 8) !important;
+
+}
+.navbar-nav li:hover
+{
+background-color: #2F4858 !important;
+border-radius: 10px;
+
+}
+.covid-title
+{
+  color: #6C6FC3;
+  font-size: 35px;
+  font-weight: bold;
+}
+.btn-virus
+{
+ 
+  width: 88px;
+  height:30px;
+  font-size: 10px;
+
+}
+.btn-virus:hover
+{
+ 
+  width: 88px;
+  height: 60px;
+  font-size: 10px;
+
+
+}
+.virus
+{
+  position: absolute;
+  top: 350px;
+  z-index: -2;
+  right: 0px;
+  animation: rotating 5s infinite;
+}
+@keyframes rotating {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.virus1
+{
+  position: absolute;
+  top: 500px;
+  z-index: -3;
+  right: 80px;
+  animation: rotating 5s infinite;
+}
+@keyframes rotating {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.virus2
+{
+  position: absolute;
+  top: 100px;
+  z-index: -3;
+  left: 50%;
+  animation: rotating 5s infinite;
+}
+@keyframes rotating {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-pills a:hover
+{
+  background-color: #2F4858 !important;
+  color: #fff !important;
+}
+
+.nav-pills a:active
+{
+  background-color: #2F4858 !important;
+  color: #fff !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #2F4858 !important;
+  color: #fff !important;
+  width: 100%;
+}

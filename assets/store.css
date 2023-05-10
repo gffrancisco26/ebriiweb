@@ -1,0 +1,232 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+  
+}
+
+.imgSecond
+{
+
+  background-image: url("imgs/doctorist.PNG");
+    height: 50vh;
+   width: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: inline-block;
+   transform: translate(0px, 55px);
+  
+}
+
+.ebriiTitle
+{
+    
+    display: inline-block;
+    color: #F66F08;
+ 
+    margin-top: -30px;
+    margin-bottom: 20px;
+    background-color: #202020ad;
+    padding:20px;
+
+}
+.idCard
+{
+    margin-top: 5px;
+    margin-left: 20px;
+    box-shadow: 1px 1px 10px #202020d1;
+}
+.cardFlex
+{
+    display: inline-flex;
+
+  
+}
+.idCard
+{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.accordion
+{
+    width: 100%;
+}
+.faq__contents
+{
+    display: inline-flex
+}
+
+.loadingScreen
+{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: rgb(32, 32, 32);
+    position: absolute;
+
+
+}
+.ldImage {
+    padding-top: 200px;
+    margin-top: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+}
+.loadText
+{
+    display:flex;margin: 0 auto;
+      justify-content: center;
+       color: #fff;
+       font-size: 20px;
+}
+.firstSection
+{
+    display: inline-flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+.spanner
+{
+    display: inline-flex;
+}
+row
+{
+    width: 100%;
+}
+.mainContent
+{
+    display: none;
+}
+h2{
+    color: #F66F08;
+}
+h3{
+    color: #F66F08;
+}
+.fa-solid
+{
+    color: #F66F08;
+
+}
+.imgIdent
+{
+    display: block;
+
+}
+.imgIdent:hover{
+    transform: scale(1.2);
+   
+}
+.footer
+{
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100% !important;
+}
+@media(max-width:500px){
+
+    .footer{
+        float:left;
+        width:109%;
+        margin-left:-5%;
+    }
+
+}
+
+#foot
+{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.card
+{
+    display: flex;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: ease .5s;
+}
+#faqImage
+{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+   
+   
+}
+#faqImage img
+{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+}
+.btn-facebook
+{
+    background-color:  #4267B2;
+    color: #fff;
+}
+.btn-facebook:hover
+{
+    background-color:  #5b83d3;
+    color: #fff;
+}
+.btn-twitter
+{
+    background-color: #1DA1F2;
+    color: #fff;
+}
+.btn-twitter:hover
+{
+    background-color: #3ab3ff;
+    color: #fff;
+}
+.btn-pinterest
+{
+    background-color:#E60023;
+    color: #fff;
+}
+.btn-pinterest:hover
+{
+    background-color:#fd2041;
+    color: #fff;
+}
+.btn-instagram
+{
+    background-color: #C13584;
+    color: #fff;
+}
+.btn-instagram:hover
+{
+    background-color: #e62291;
+    color: #fff;
+}
+.dropdown-menu a
+{
+    color: #fff;
+}
+.dropdown-menu a:hover
+{
+    color: #fff !important;
+    background-color: #F66F08 !important;
+}
+.resizes
+{
+  align-items:center;
+  justify-content:center;
+  margin: auto;
+
+
+}

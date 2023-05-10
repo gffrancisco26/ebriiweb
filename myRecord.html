@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Ebrii Medical Records for Ebrii Juan">
+<link rel="icon" type="image/x-icon" href="assets/imgs/ebrii.ico">
+
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/store.css">
+<link rel="stylesheet" href="assets/emergency.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Inconsolata:wght@300&family=Inter:wght@500&family=Itim&family=Mukta:wght@700&family=Oleo+Script+Swash+Caps&family=Poppins:wght@100;400&family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/304bd7bef0.js" crossorigin="anonymous"></script>
+
+<title>⚠️ EMERGENCY⚠️</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+  $(window).on('load', function() {
+    $(".loadingScreen").fadeOut(1000);
+    $(".mainContent").fadeIn(3000);
+  
+  });
+</script>
+</head>
+<body>
+<header>
+  
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg ">
+   
+  <ul class="nav"></ul>
+    <a class="navbar-brand" href="#"><img src="assets/imgs/ebriilogo.PNG" style="width: 60px">&nbsp;Ebrii</a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link " href="index.html">Home</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link active "   style="border-bottom: 1px solid #F66F08" href="ebriicare.html">EbriiCare™</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link "   href="covid.html">COVID19 Response</a>
+        </li>
+        <li class="nav-item">
+          <div class="btn-group">
+              <button type="button" class="btn btn-link dropdown-toggle text-light" id="drpdwn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Your Role
+              </button>
+              <div class="dropdown-menu bg-dark">
+                <a class="dropdown-item"  href="#"> <i class="fa-solid fa-user" style="color: #fff"></i> &nbsp;&nbsp;Patient</a>
+                <a class="dropdown-item"  href="#"><i class="fa-solid fa-user-doctor" style="color: #fff"></i>&nbsp;&nbsp;Medical Practitioners</a>
+                <a class="dropdown-item"  href="#"><i class="fa-solid fa-building-user" style="color: #fff"></i>&nbsp;&nbsp;Government</a>
+                <a class="dropdown-item"  href="#"><i class="fa-solid fa-user-lock" style="color: #fff"></i>&nbsp&nbsp;Health Plan</a>
+                <a class="dropdown-item"  href="#"><i class="fa-solid fa-user-tie" style="color: #fff"></i>&nbsp;&nbsp;Employers</a>
+            </div>
+        </li>
+        <li class="nav-item">
+              <a class="btn btn-warning pl-4 pr-4" href="login.html"><i class="fa-solid fa-arrow-right-to-bracket"style="color: #fff"></i>&nbsp;&nbsp;Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!--end of navbar-->
+</header>
+<body>
+    <div class="loadingScreen">
+      <div><img src="assets/imgs/loader3.gif" class="ldImage" width="100px"></div>
+      <div class="loadText">We Care for Ebrii-Juan!</div>
+        
+    </div>
+
+    <div class="mainContent d-flex" style="padding-top: 150px;padding-left:50px;padding-right: 50px;">
+                <div class="container-fluid">
+                    <div class="row d-flex align-items-center ">
+                        <div class="col-sm-12">
+                            <h5>PATIENT EMERGENCY RECORD</h5>
+                            <center><hr></center>
+                            <form action="" class="form-group" style="width: 550px">
+                                <div class="form-group d-inline-block">
+                                    <label for="ebriiMedId"  style="color:#F66F08;font-weight: bold;">Ebrii ID</label>
+                                    <input type="text" id="ebriiMedId" name="ebriiMedId "class="form-control p-4" placeholder="e.g 343457-3455644"><br>
+                                    <label for="ebriiResp" style="color:#F66F08;font-weight: bold;">Name of Responder | Hospital</label>
+                                    <input type="text" id="ebriiResp" name="ebriiResp" class="form-control p-4" placeholder="e.g St. Mary Hospital">
+                                    <button class="btn btn-warning form-control mt-3"><i class="fa-solid fa-id-card" style="color: #fff"></i>&nbspRequest Record</button>
+                                    <div class="btn-group mt-2" >
+                                        <button style="width:140px ;"class="btn btn-dark"><i class="fa-solid fa-qrcode" style="color: #fff"></i>&nbsp;Scan QR Code</button>
+                                        
+                                        <button  style="width:140px ;" class="btn btn-secondary"><i class="fa-solid fa-file-arrow-up" style="color: #fff"></i>&nbsp;Upload QR Code</button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <center><p style="color: #fff;font-size: 10px;margin-top: 20px;"> This is only for use of Authorized personnels such as first Aider, Medical Responders, Nurses, Doctors and even health specialist for patients access to emergency medical information. All Information displayed are with permission from the patient only if they provided their Ebrii Medical Record ID and for special emergency purposes. All Rights Reserved</p></center>
+                                </div>
+                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+       
+    </div>  
+    </body
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="app.js" async ></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+</body>
+</html>
